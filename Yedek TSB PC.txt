@@ -6937,7 +6937,7 @@ end)
 
 HubTab:AddButton({
     Title = "Anti-Death-Counter",
-    Description = "",
+    Description = "ÖLÜNCE SIFIRLANIR BİDAHA BASIN!",
     Callback = function()
     workspace.FallenPartsDestroyHeight = 0/0
 
@@ -6946,7 +6946,7 @@ if getgenv().loop then
     getgenv().loop = nil
 end
 local animations = {
-    ["rbxassetid://11343250001"]=0.35,
+    ["rbxassetid://11343250001"]=0.3,
 }
 function ifind(t,a)
     for i,v in pairs(t) do
