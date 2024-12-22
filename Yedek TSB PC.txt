@@ -2378,7 +2378,7 @@ playAnim2:Play()
 
 PlayerModsTab:AddButton({
     Title = "KJ Ravage",
-    Description = "",
+    Description = " NORMAL SUNUCU KULLANMAYIN !",
     Callback = function()
     local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
@@ -2446,7 +2446,7 @@ wait(0.8)
 
 PlayerModsTab:AddButton({
     Title = "KJ Ravage Saldırı",
-    Description = "",
+    Description = " NORMAL SUNUCU KULLANMAYIN !",
     Callback = function()
     local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
@@ -2525,7 +2525,7 @@ PlayerModsTab:AddButton({
 
 PlayerModsTab:AddButton({
     Title = "KJ Swift Sweep",
-    Description = "",
+    Description = " NORMAL SUNUCU KULLANMAYIN !",
     Callback = function()
     local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
@@ -2596,7 +2596,7 @@ sound:Play()
 
 PlayerModsTab:AddButton({
     Title = "KJ Collateral Ruin",
-    Description = "",
+    Description = " NORMAL SUNUCU KULLANMAYIN !",
     Callback = function()
     local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
@@ -2728,7 +2728,7 @@ boom1.Parent = game.Players.LocalPlayer.Character["Torso"]
 
 PlayerModsTab:AddButton({
     Title = "KJ Counter",
-    Description = "",
+    Description = "bunu kullanabilirsiniz",
     Callback = function()
     local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
@@ -2793,7 +2793,7 @@ playAnim2:Play()
 
 PlayerModsTab:AddButton({
     Title = "KJ Vurus Animasyonları M1LER",
-    Description = "",
+    Description = " NORMAL SUNUCU KULLANMAYIN !",
     Callback = function()
             local Players = game:GetService("Players")
 
