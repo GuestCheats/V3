@@ -2766,24 +2766,6 @@ local character = player.Character or player.CharacterAdded:Wait()
 local UserInputService = game:GetService("UserInputService")
 
 local anim2 = Instance.new("Animation")
-anim2.AnimationId = "rbxassetid://78521642007560"
-
-local playAnim2 = humanoid:LoadAnimation(anim2)
-playAnim2:Play()
-    end
-})
-
-PlayerModsTab:AddButton({
-    Title = "KJ Counter Saldırı 2",
-    Description = "",
-    Callback = function()
-    local player = game.Players.LocalPlayer
-repeat wait() until player.Character.Humanoid
-local humanoid = player.Character.Humanoid
-local character = player.Character or player.CharacterAdded:Wait()
-local UserInputService = game:GetService("UserInputService")
-
-local anim2 = Instance.new("Animation")
 anim2.AnimationId = "rbxassetid://70512853043908"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
@@ -3291,6 +3273,24 @@ local UserInputService = game:GetService("UserInputService")
 
 local anim2 = Instance.new("Animation")
 anim2.AnimationId = "rbxassetid://14611879113"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+ScriptTab:AddButton({
+    Title = "Frost",
+    Description = "",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://134494086123052"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
