@@ -2251,6 +2251,38 @@ playAnim2:Play()
 })
 
 PlayerModsTab:AddButton({
+    Title = "Martial Artist Bullet Barrage Bitirici",
+    Description = "Hasar Vermez",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18464351556"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+wait(1.6)
+
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18464356233"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+PlayerModsTab:AddButton({
     Title = "Martial Artist Vanishing Kick",
     Description = "Hasar Vermez",
     Callback = function()
@@ -2316,6 +2348,24 @@ local UserInputService = game:GetService("UserInputService")
 
 local anim2 = Instance.new("Animation")
 anim2.AnimationId = "rbxassetid://17857788598"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+PlayerModsTab:AddButton({
+    Title = "Martial Artist Whirlwind Drop Bitirici",
+    Description = "Hasar Vermez",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18464362124"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
@@ -5714,6 +5764,24 @@ local UserInputService = game:GetService("UserInputService")
 
 local anim2 = Instance.new("Animation")
 anim2.AnimationId = "rbxassetid://119325239112989"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+Script2Tab:AddButton({
+    Title = "MartialArtist Dragon Slap",
+    Description = "",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://10503381238"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
