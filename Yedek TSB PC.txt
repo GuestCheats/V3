@@ -5820,6 +5820,17 @@ anim2.AnimationId = "rbxassetid://10503381238"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 86642986051652
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -6925,6 +6936,14 @@ end)
 })
 
 Hub2Tab:AddButton({
+    Title = "Haritanin Ortası",
+    Description = "",
+    Callback = function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(149.96803283691406, 444.693115234375, 30.064167022705078)
+    end
+})
+
+Hub2Tab:AddButton({
     Title = "Death Counter Odası",
     Description = "Death Counterin İçine Işınlanır!",
     Callback = function()
@@ -6965,15 +6984,6 @@ Hub2Tab:AddButton({
 })
 
 Hub2Tab:AddButton({
-    Title = "Yüzülebilir Su",
-    Description = "",
-    Callback = function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1168.6304931640625, 782.1277465820312, -1141.524169921875)
-    end
-})
-
-
-Hub2Tab:AddButton({
     Title = "Uzay",
     Description = "",
     Callback = function()
@@ -7001,7 +7011,7 @@ Hub2Tab:AddButton({
     Title = "Dağ 3",
     Description = "",
     Callback = function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(975.048828125, 671.8126220703125, 662.2904052734375)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(630.303955078125, 677.6148071289062, 420.1483459472656)
     end
 })
 
@@ -7009,7 +7019,7 @@ Hub2Tab:AddButton({
     Title = "Dağ 4",
     Description = "",
     Callback = function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(278.8366394042969, 583.5917358398438, -579.8598022460938)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(354.0419006347656, 630.3734741210938, -523.1368408203125)
     end
 })
 
@@ -7025,7 +7035,7 @@ Hub2Tab:AddButton({
     Title = "Fazlalık Alan 1",
     Description = "",
     Callback = function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-432.6841125488281, 442.9612731933594, -316.25018310546875)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(526.857666015625, 439.51055908203125, 467.4282531738281)
     end
 })
 
@@ -7033,7 +7043,7 @@ Hub2Tab:AddButton({
     Title = "Fazlalık Alan 2",
     Description = "",
     Callback = function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.53147888183594, 442.91741943359375, 709.041259765625)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-230.7361602783203, 439.51055908203125, 452.5563049316406)
     end
 })
 
@@ -7041,7 +7051,7 @@ Hub2Tab:AddButton({
     Title = "Fazlalık Alan 3",
     Description = "",
     Callback = function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(967.5990600585938, 449.677490234375, -1323.6068115234375)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-187.3134307861328, 439.51055908203125, -413.9159240722656)
     end
 })
 
@@ -7049,15 +7059,7 @@ Hub2Tab:AddButton({
     Title = "Küçük Köşe",
     Description = "",
     Callback = function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(399.8018493652344, 437.95989990234375, -1099.2181396484375)
-    end
-})
-
-Hub2Tab:AddButton({
-    Title = "Haritanin Ortası",
-    Description = "",
-    Callback = function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(149.96803283691406, 444.693115234375, 30.064167022705078)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(243.5750732421875, 594.2224731445312, -531.7461547851562)
     end
 })
 
