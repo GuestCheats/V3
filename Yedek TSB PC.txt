@@ -437,7 +437,7 @@ MainTab:AddButton({
     Title = "Menüyü Tekrar Aç",
     Description = "Menüyü Yeniler",
     Callback = function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/cackftfV'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GuestCheats/V3/refs/heads/main/Yedek%20TSB%20PC.txt'))()
     end
 })
 
