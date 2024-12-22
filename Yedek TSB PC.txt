@@ -3192,7 +3192,29 @@ anim2.AnimationId = "rbxassetid://12772543293"
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
 
-local soundId = 0
+local soundId = 12772751073
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 108376249645017
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 12684881398
 
 local sound = Instance.new("Sound")
 sound.Name = "audio/kj_awakening_varient_2_sfx_only"
@@ -3220,6 +3242,28 @@ anim2.AnimationId = "rbxassetid://13499771836"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 13541624989
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 71992624692070
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -3238,6 +3282,50 @@ anim2.AnimationId = "rbxassetid://14733282425"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 14375211429
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 14767570596
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 14767570486
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 14699431237
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -3256,6 +3344,54 @@ anim2.AnimationId = "rbxassetid://15391323441"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 15806232934
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 15392171292
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+wait(0.3)
+
+local soundId = 15392801101
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+wait(0.45)
+
+local soundId = 15392171081
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -3292,6 +3428,39 @@ anim2.AnimationId = "rbxassetid://18435535291"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 18873326021
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 18435322138
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 18432749286
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -6827,7 +6996,7 @@ ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 ToggleButton.TextScaled = true
 
 EnableButton.Parent = MainFrame
-EnableButton.Text = "Aç"
+EnableButton.Text = "AÇ"
 EnableButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 EnableButton.BorderSizePixel = 2
 EnableButton.BorderColor3 = Color3.fromRGB(0, 170, 255)
@@ -6845,10 +7014,10 @@ local scriptEnabled = false
 EnableButton.MouseButton1Click:Connect(function()
     if not scriptEnabled then
         loadstring(game:HttpGet("https://pastebin.com/raw/Sm2niZCP"))()
-        EnableButton.Text = "Disable"
+        EnableButton.Text = "Enable"
         scriptEnabled = true
     else
-        EnableButton.Text = "Enable"
+        EnableButton.Text = "Disable"
         scriptEnabled = false
     end
 end)
@@ -6937,7 +7106,7 @@ end)
 
 HubTab:AddButton({
     Title = "Anti-Death-Counter",
-    Description = "ÖLÜNCE SIFIRLANIR BİDAHA BASIN!",
+    Description = "ÖLÜNCE SIFIRLANIR BİDAHA BASIN DOĞDUGUNUZDA!",
     Callback = function()
     workspace.FallenPartsDestroyHeight = 0/0
 
