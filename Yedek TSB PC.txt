@@ -2069,6 +2069,30 @@ anim2.AnimationId = "rbxassetid://15290930205"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 15290963291
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+wait(0.2)
+
+local soundId = 15134096288
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -2087,6 +2111,17 @@ anim2.AnimationId = "rbxassetid://15145462680"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 15247324017
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -2105,6 +2140,28 @@ anim2.AnimationId = "rbxassetid://15295895753"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 15290393193
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 15303845905
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -2123,6 +2180,17 @@ anim2.AnimationId = "rbxassetid://15311685628"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 15311679366
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -2141,6 +2209,41 @@ anim2.AnimationId = "rbxassetid://16139108718"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 16139753098
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+wait(0.1)
+
+local soundId = 16139752649
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 16139753470
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -2159,6 +2262,28 @@ anim2.AnimationId = "rbxassetid://16699717165"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 106189448091366
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 82454235073748
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -2174,6 +2299,35 @@ local UserInputService = game:GetService("UserInputService")
 
 local anim2 = Instance.new("Animation")
 anim2.AnimationId = "rbxassetid://16515850153"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+local soundId = 16312409209
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+    end
+})
+
+PlayerModsTab:AddButton({
+    Title = "Tatsumaki Fırtına Bitirici",
+    Description = "Hasar Vermez",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://120992533725535"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
@@ -2195,6 +2349,28 @@ anim2.AnimationId = "rbxassetid://16431491215"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 16432011041
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 16432010861
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -2213,6 +2389,17 @@ anim2.AnimationId = "rbxassetid://16708190748"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 16432011041
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 }) 
 
@@ -2231,6 +2418,30 @@ anim2.AnimationId = "rbxassetid://16597912086"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 16600477972
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+wait(0.15)
+
+local soundId = 16600462737
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -2249,6 +2460,17 @@ anim2.AnimationId = "rbxassetid://17799224866"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 17788202852
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -2299,11 +2521,22 @@ anim2.AnimationId = "rbxassetid://17838006839"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 17837981244
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
 PlayerModsTab:AddButton({
-    Title = "Martial Artist Vanishing Kick 2",
+    Title = "Martial Artist Vanishing Kick Saldırı",
     Description = "Hasar Vermez",
     Callback = function()
     local player = game.Players.LocalPlayer
@@ -2317,6 +2550,17 @@ anim2.AnimationId = "rbxassetid://17838619895"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 17837981244
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -2353,6 +2597,17 @@ anim2.AnimationId = "rbxassetid://17857788598"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 17859625777
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -2389,6 +2644,28 @@ anim2.AnimationId = "rbxassetid://18182425133"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+local soundId = 18179536613
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 18181449208
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -2407,6 +2684,28 @@ anim2.AnimationId = "rbxassetid://18182456608"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+ocal soundId = 18179536613
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 18181449208
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
