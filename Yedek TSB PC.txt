@@ -8518,6 +8518,30 @@ BaTab:AddButton({
 })
 
 BaTab:AddButton({
+    Title = "Chat Filter Bypasser",
+    Description = "İSTEDİĞİN GİBİ %100 SÖVEBİLİRSİN ANTİ CHAT LOGGER VAR %100 Sansürsüz",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AlgariBot/lua/refs/heads/Lua-Script-Executor/LocalNeverPatchedBypass.txt"))()
+   end,
+})
+
+BaTab:AddButton({
+    Title = "Fling",
+    Description = "Dokunan Cennete Uçar",
+    Callback = function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt'),true))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "Fling2",
+    Description = "MM2 DEKİ FLİNG HİLESİ İSMİNİ YAZ BİRİSİNİN UZAYA GİDER",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-FREAKY-FLING/main/kawaii_freaky_fling.lua",true))()
+   end,
+})
+
+BaTab:AddButton({
     Title = "TSB Saitama Gojo V1 Dönüş",
     Description = "Dönüşüm!",
     Callback = function()
