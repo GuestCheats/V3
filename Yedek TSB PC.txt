@@ -7826,7 +7826,7 @@ workspace:SetAttribute("NoAttack", false)
     end
 })
 
-BTab:AddButton({
+BaTab:AddButton({
     Title = "KGuestCheatsJ Saitama Dönüş!",
     Description = "",
     Callback = function()
@@ -7834,7 +7834,7 @@ BTab:AddButton({
     end
 })
 
-BTab:AddButton({
+BaTab:AddButton({
     Title = "KGuestCheatsJ JJS Ulti isim",
     Description = "",
     Callback = function()
