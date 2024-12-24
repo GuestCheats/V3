@@ -4956,6 +4956,35 @@ sound:Play()
     end
 })
 
+EmoteTab:AddButton({
+    Title = "Drum Major",
+    Description = "Bastıktan Sonra Özellik Kullanırsanız Gider",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18418313278"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+local soundId = 1846943603
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+    end
+})
+
 Script2Tab:AddButton({
     Title = "Saitama Death Counter",
     Description = "",
@@ -7717,6 +7746,53 @@ sound:Play()
 })
 
 DumTab:AddButton({
+    Title = "Dummy Saitama Death Counter Sana",
+    Description = "Daha Yapılmadı!",
+    Callback = function()
+            -- Referências aos objetos
+local player = game.Workspace.Live["Weakest Dummy"]
+local playerHumanoid = player:FindFirstChildOfClass("Humanoid")
+
+-- IDs das animações
+local playerAnimationId = "k"  -- ID de animação do jogador (don't mind this)
+local dummyAnimationId = "11343318134"  -- ID de animação do Dummy
+
+-- Função para criar e adicionar animação
+local function addAnimation(humanoid, animationId)
+    local animation = Instance.new("Animation")
+    animation.AnimationId = "rbxassetid://" .. animationId
+    local animator = humanoid:FindFirstChildOfClass("Animator")
+    
+    if not animator then
+        animator = Instance.new("Animator")
+        animator.Name = "Animator"
+        animator.Parent = humanoid
+    end
+    
+    local animationTrack = animator:LoadAnimation(animation)
+    
+    -- Atrasar o início da animação em 0.8 segundos
+    
+    animationTrack:Play()
+end
+
+-- Adiciona a animação ao Dummy
+addAnimation(playerHumanoid, dummyAnimationId)
+ 
+local soundId = 6476791205
+ 
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+    end
+})
+
+DumTab:AddButton({
     Title = "Dummy Saitama TableFlip",
     Description = "",
     Callback = function()
@@ -7787,6 +7863,100 @@ sound:Play()
 DumTab:AddButton({
     Title = "Dummy Saitama Omni Punch",
     Description = "",
+    Callback = function()
+            -- Referências aos objetos
+local player = game.Workspace.Live["Weakest Dummy"]
+local playerHumanoid = player:FindFirstChildOfClass("Humanoid")
+
+-- IDs das animações
+local playerAnimationId = "k"  -- ID de animação do jogador (don't mind this)
+local dummyAnimationId = "13927612951"  -- ID de animação do Dummy
+
+-- Função para criar e adicionar animação
+local function addAnimation(humanoid, animationId)
+    local animation = Instance.new("Animation")
+    animation.AnimationId = "rbxassetid://" .. animationId
+    local animator = humanoid:FindFirstChildOfClass("Animator")
+    
+    if not animator then
+        animator = Instance.new("Animator")
+        animator.Name = "Animator"
+        animator.Parent = humanoid
+    end
+    
+    local animationTrack = animator:LoadAnimation(animation)
+    
+    -- Atrasar o início da animação em 0.8 segundos
+    
+    animationTrack:Play()
+end
+
+-- Adiciona a animação ao Dummy
+addAnimation(playerHumanoid, dummyAnimationId)
+ 
+local soundId = 14742345676
+ 
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+    end
+})
+
+DumTab:AddButton({
+    Title = "Dummy Saitama Omni Punch Sana",
+    Description = "Daha Yapılmadı!",
+    Callback = function()
+            -- Referências aos objetos
+local player = game.Workspace.Live["Weakest Dummy"]
+local playerHumanoid = player:FindFirstChildOfClass("Humanoid")
+
+-- IDs das animações
+local playerAnimationId = "k"  -- ID de animação do jogador (don't mind this)
+local dummyAnimationId = "13927612951"  -- ID de animação do Dummy
+
+-- Função para criar e adicionar animação
+local function addAnimation(humanoid, animationId)
+    local animation = Instance.new("Animation")
+    animation.AnimationId = "rbxassetid://" .. animationId
+    local animator = humanoid:FindFirstChildOfClass("Animator")
+    
+    if not animator then
+        animator = Instance.new("Animator")
+        animator.Name = "Animator"
+        animator.Parent = humanoid
+    end
+    
+    local animationTrack = animator:LoadAnimation(animation)
+    
+    -- Atrasar o início da animação em 0.8 segundos
+    
+    animationTrack:Play()
+end
+
+-- Adiciona a animação ao Dummy
+addAnimation(playerHumanoid, dummyAnimationId)
+ 
+local soundId = 14742345676
+ 
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+    end
+})
+
+DumTab:AddButton({
+    Title = "Dummy Gojo Ulti",
+    Description = "Daha Yapılmadı!",
     Callback = function()
             -- Referências aos objetos
 local player = game.Workspace.Live["Weakest Dummy"]
