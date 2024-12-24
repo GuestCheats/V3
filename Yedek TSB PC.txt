@@ -5165,6 +5165,19 @@ anim2.AnimationId = "rbxassetid://140164642047188"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+wait(1)
+
+local soundId = 138606736980530
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
@@ -5183,6 +5196,19 @@ anim2.AnimationId = "rbxassetid://71377448806509"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
+
+wait(1)
+
+local soundId = 138606736980530
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
     end
 })
 
