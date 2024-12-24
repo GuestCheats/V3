@@ -7895,3 +7895,220 @@ end
 bary2.Image = "rbxassetid://78556255932509"
     end
 })
+
+BaTab:AddButton({
+    Title = "TSB Dash Cooldown Görme",
+    Description = "Çok İyi İşe Yarıyor",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/OtherScripts/refs/heads/main/CooldownIndicator.lua"))()
+   end,
+})
+
+BaTab:AddButton({
+    Title = "TSB 2.HİLE",
+    Description = "Çok İyi İşe Yarıyor",
+    Callback = function()
+    getgenv().DisableWarning = true
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/KadeHubRepository/main/Latest.lua"))()
+   end,
+})
+
+BaTab:AddButton({
+    Title = "TSB Saitama Gojo V1 Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Saitama Gojo V2 Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Saitama EFEKTLİ Gojo Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3Cz8kF8M",true))()
+   end,
+})
+
+BaTab:AddButton({
+    Title = "TSB Saitama KJ Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RathaTepmanuth10/Kj-script-/main/Kj"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Saitama 4özellikli KJ Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gokou300/Gokou300/refs/heads/main/CAMS_KJ_SCRIPT"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Saitama Chara Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://paste.ee/r/0yYkO"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Saitama Yuta Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/weqbba/yuta-finished/refs/heads/main/yuta%20main"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Saitama Mahito Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Mahitotsbupdate'))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Saitama Vessel Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/cfPGmBz0"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Saitama Golden Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Showcaser1/golden-character/refs/heads/main/op'))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Saitama VHS-Sans Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/pKHE8Cfh"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Saitama Sans Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/2BWzgcCj"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Saitama ChildEmperor Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/CaXFZ2S2"))()
+   end,
+})
+
+BaTab:AddButton({
+    Title = "TSB Saitama A-Train Dönüş",
+    Description = "Bu Atrain Diğeri 2 Özellik veren Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://github.com/l0ckerV5/Roblox-Scripts/raw/main/The%20Strongest%20Battlegrounds/Custom%20Character/A-Train"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Saitama Karışık Dönüş",
+    Description = "Dönüşüm! %30 Ban Yeme İhtimali Var Bu Karakterde Yerseniz Benim Sorunum Degil",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Trying-glitch/RlxProject/main/custommoveset.txt"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB KJ Dönüş",
+    Description = "DUMMY de kullanın!",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/JKKZdLN5"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Garou Goku Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Goku-Moveset-V2-17977"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Garou Deku Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/xKextYP5"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Garou Arcaura Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Garou Venom Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Yourfavoriteguy/VENOM/refs/heads/main/EARLYACCESS'))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Garou Sonik Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bre5be123/Ha/refs/heads/main/Snic"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Garou Geto Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DuckTheSecond/Duck-sHUB/refs/heads/main/HUBv1"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Sonic Voltar Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Sonic Yuji Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
+   end,
+})
+ 
+BaTab:AddButton({
+    Title = "TSB Atomic Sukuna Dönüş",
+    Description = "Dönüşüm!",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
+   end,
+})
