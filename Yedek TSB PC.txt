@@ -6,7 +6,7 @@ local whitelistedNames = {
     "Guestearda13", 
     "roblox1234577834", 
     "mraxolotlalt2", 
-    "Guestearda5", 
+    "Guestearda6", 
     "AntDragons", 
     "probayjoker", 
     "Ergunaras2012", 
