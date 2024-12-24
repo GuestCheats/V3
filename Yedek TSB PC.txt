@@ -2685,7 +2685,7 @@ anim2.AnimationId = "rbxassetid://18182456608"
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
 
-ocal soundId = 18179536613
+local soundId = 18179536613
 
 local sound = Instance.new("Sound")
 sound.Name = "audio/kj_awakening_varient_2_sfx_only"
