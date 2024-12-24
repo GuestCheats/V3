@@ -101,7 +101,7 @@ local Tabs = {
     Dum = Window:AddTab({ Title = "Weakest Dummy☠️", Icon = "rbxassetid://10723396000" }),
     Ben = Window:AddTab({ Title = "Özel Karakter Animasyonları☠️", Icon = "rbxassetid://10723396000" }),
     Emote = Window:AddTab({ Title = "Bedava Emoteler☠️", Icon = "rbxassetid://10723396000" }),
-    B = Window:AddTab({ Title = "Dönüşümler+Menüler☠️", Icon = "rbxassetid://10723396000" }),
+    Ba = Window:AddTab({ Title = "Dönüşümler+Menüler☠️", Icon = "rbxassetid://10723396000" }),
     Cred = Window:AddTab({ Title = "Diğer+Yapımcı", Icon = "rbxassetid://10734897102" }) -- Corrected title to "Credits"
 }
  
@@ -109,7 +109,7 @@ local MainTab = Tabs.Main
 local TsbTab = Tabs.TSB
 local HubTab = Tabs.Hub
 local PsTab = Tabs.Ps
-local BTab = Tabs.b
+local BaTab = Tabs.Ba
 local Hub2Tab = Tabs.Hub2
 local OyunTab = Tabs.Oyun
 local DumTab = Tabs.Dum
