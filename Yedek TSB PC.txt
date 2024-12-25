@@ -7783,6 +7783,14 @@ coroutine.resume(getgenv().loop)
     end
 })
 
+HubTab:AddButton({
+    Title = "Oto Frost Toplayıcı",
+    Description = "BİDAHA BASIN Kapatmak İçin",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/OtherScripts/refs/heads/main/AutoCollectFrozenLock.lua"))()
+    end
+})
+
 Hub2Tab:AddButton({
     Title = "Haritanin Ortası",
     Description = "",
