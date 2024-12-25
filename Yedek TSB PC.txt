@@ -4131,7 +4131,7 @@ sound:Play()
 
 OyunTab:AddButton({
     Title = "Child Emperor",
-    Description = "Bakımda!",
+    Description = "",
     Callback = function()
     local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
@@ -4140,21 +4140,10 @@ local character = player.Character or player.CharacterAdded:Wait()
 local UserInputService = game:GetService("UserInputService")
 
 local anim2 = Instance.new("Animation")
-anim2.AnimationId = "rbxassetid://0"
+anim2.AnimationId = "rbxassetid://119169968232874"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
-
-local soundId = 17325174223
-
-local sound = Instance.new("Sound")
-sound.Name = "audio/kj_awakening_varient_2_sfx_only"
-sound.SoundId = "rbxassetid://" .. soundId
-sound.Volume = 1
-sound.Pitch = 1.0
-sound.PlaybackSpeed = 1.0
-sound.Parent = workspace
-sound:Play()
     end
 })
 
@@ -4566,6 +4555,39 @@ sound.Pitch = 1.0
 sound.PlaybackSpeed = 1.0
 sound.Parent = workspace
 sound:Play()
+    end
+})
+
+TsbTab:AddButton({
+    Title = "Child Emperor Wallcombo",
+    Description = "",
+    Callback = function()
+    local p = game.Players.LocalPlayer
+local Humanoid = p.Character:WaitForChild("Humanoid")
+
+local AnimAnim = Instance.new("Animation")
+AnimAnim.AnimationId = "rbxassetid://131492147325921"
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+AnimAnim.AnimationId = "rbxassetid://0"
+Anim:Play()
+    end
+})
+
+TsbTab:AddButton({
+    Title = "Child Emperor Kendine WallCombo",
+    Description = "",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://105493146334026"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
     end
 })
 
