@@ -3315,6 +3315,142 @@ PlayerModsTab:AddButton({
 })
 
 PlayerModsTab:AddButton({
+    Title = "Child Emperor Weboom",
+    Description = "",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://113166426814229"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+PlayerModsTab:AddButton({
+    Title = "Child Emperor Plasma Cannon",
+    Description = "",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://116753755471636"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+wait(0.5)
+
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://114095570398448"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+PlayerModsTab:AddButton({
+    Title = "Child Emperor Trinity Tear",
+    Description = "",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://77509627104305"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+wait(0.6)
+
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://98542310119798"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+PlayerModsTab:AddButton({
+    Title = "Child Emperor Trinity Tear Kendine",
+    Description = "",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://137356827034236"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+PlayerModsTab:AddButton({
+    Title = "Child Emperor Double Trouble",
+    Description = "",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://138443750790136"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+PlayerModsTab:AddButton({
+    Title = "Child Emperor Double Trouble Kendine",
+    Description = "",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://94395585475029"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+PlayerModsTab:AddButton({
     Title = "Frost PermaFrost",
     Description = "",
     Callback = function()
@@ -8068,7 +8204,7 @@ sound:Play()
 
 DumTab:AddButton({
     Title = "Dummy Saitama Death Counter Sana",
-    Description = "Daha Yapılmadı!",
+    Description = "",
     Callback = function()
             -- Referências aos objetos
 local player = game.Workspace.Live["Weakest Dummy"]
@@ -8110,6 +8246,18 @@ sound.Pitch = 1.0
 sound.PlaybackSpeed = 1.0
 sound.Parent = workspace
 sound:Play()
+
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://11343250001"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
     end
 })
 
@@ -8277,7 +8425,7 @@ sound:Play()
 
 DumTab:AddButton({
     Title = "Dummy Gojo Ulti",
-    Description = "Daha Yapılmadı!",
+    Description = "",
     Callback = function()
             -- Referências aos objetos
 local player = game.Workspace.Live["Weakest Dummy"]
@@ -8285,7 +8433,7 @@ local playerHumanoid = player:FindFirstChildOfClass("Humanoid")
 
 -- IDs das animações
 local playerAnimationId = "k"  -- ID de animação do jogador (don't mind this)
-local dummyAnimationId = "13927612951"  -- ID de animação do Dummy
+local dummyAnimationId = "14611879113"  -- ID de animação do Dummy
 
 -- Função para criar e adicionar animação
 local function addAnimation(humanoid, animationId)
