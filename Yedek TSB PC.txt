@@ -8497,7 +8497,7 @@ workspace:SetAttribute("NoDashCooldown", false)
 })
 
 PsTab:AddButton({
-    Title = "No Fatigue Aç",
+    Title = "NoFatigue Aç",
     Description = "",
     Callback = function()
 local Players = game:GetService("Players")
@@ -8597,6 +8597,32 @@ local Player = Players.LocalPlayer
 workspace:SetAttribute("VIPServer", Player.UserId)
 workspace:SetAttribute("VIPServerOwner", Player.Name)
 workspace:SetAttribute("NoAttack", false)
+    end
+})
+
+PsTab:AddButton({
+    Title = "NoBlock Aç",
+    Description = "Sadece Sende Olur",
+    Callback = function()
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+
+workspace:SetAttribute("VIPServer", Player.UserId)
+workspace:SetAttribute("VIPServerOwner", Player.Name)
+workspace:SetAttribute("NoBlock", true)
+    end
+})
+
+PsTab:AddButton({
+    Title = "NoBlock Kapat",
+    Description = "",
+    Callback = function()
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+
+workspace:SetAttribute("VIPServer", Player.UserId)
+workspace:SetAttribute("VIPServerOwner", Player.Name)
+workspace:SetAttribute("NoBlock", false)
     end
 })
 
