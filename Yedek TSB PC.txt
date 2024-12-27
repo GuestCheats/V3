@@ -2195,6 +2195,36 @@ sound:Play()
 })
 
 PlayerModsTab:AddButton({
+    Title = "Atomic Bölünmüş Counter Saldırı",
+    Description = "Hasar Vermez",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15334974550"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+local soundId = 15311679366
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+    end
+})
+
+
+PlayerModsTab:AddButton({
     Title = "Tatsumaki Ezici Çekme",
     Description = "Hasar Vermez",
     Callback = function()
@@ -2299,6 +2329,35 @@ local UserInputService = game:GetService("UserInputService")
 
 local anim2 = Instance.new("Animation")
 anim2.AnimationId = "rbxassetid://16515850153"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+local soundId = 16312409209
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+    end
+})
+
+PlayerModsTab:AddButton({
+    Title = "Tatsumaki Fırtına Kendine",
+    Description = "Hasar Vermez",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14658503037"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
