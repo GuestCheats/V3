@@ -8986,6 +8986,14 @@ BaTab:AddButton({
 })
 
 BaTab:AddButton({
+    Title = "TSB 1.HİLE",
+    Description = "",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DiosDi/VexonHub/main/TSB-VexonHub"))()
+   end,
+})
+
+BaTab:AddButton({
     Title = "TSB 2.HİLE",
     Description = "Çok İyi İşe Yarıyor",
     Callback = function()
