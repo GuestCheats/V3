@@ -8354,6 +8354,86 @@ DumTab:AddButton({
 })
 
 DumTab:AddButton({
+    Title = "Dummy UnlimitedFlexWorks!",
+    Description = "",
+    Callback = function()
+        -- Referências aos objetos
+local player = game.Workspace.Live["Weakest Dummy"]
+local playerHumanoid = player:FindFirstChildOfClass("Humanoid")
+
+-- IDs das animações
+local playerAnimationId = "k"  -- ID de animação do jogador (don't mind this)
+local dummyAnimationId = "77727115892579"  -- ID de animação do Dummy
+
+-- Função para criar e adicionar animação
+local function addAnimation(humanoid, animationId)
+    local animation = Instance.new("Animation")
+    animation.AnimationId = "rbxassetid://" .. animationId
+    local animator = humanoid:FindFirstChildOfClass("Animator")
+    
+    if not animator then
+        animator = Instance.new("Animator")
+        animator.Name = "Animator"
+        animator.Parent = humanoid
+    end
+    
+    local animationTrack = animator:LoadAnimation(animation)
+    
+    -- Atrasar o início da animação em 0.8 segundos
+    
+    animationTrack:Play()
+end
+
+-- Adiciona a animação ao Dummy
+addAnimation(playerHumanoid, dummyAnimationId)
+
+local soundId = 17150550093
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 99126314241685
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 128136381213631
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 95410275491981
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+    end
+})
+
+DumTab:AddButton({
     Title = "Dummy Saldırısı",
     Description = "",
     Callback = function()
