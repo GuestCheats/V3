@@ -2195,6 +2195,36 @@ sound:Play()
 })
 
 PlayerModsTab:AddButton({
+    Title = "Atomic Bölünmüş Counter Saldırı",
+    Description = "Hasar Vermez",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://15334974550"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+local soundId = 15311679366
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+    end
+})
+
+
+PlayerModsTab:AddButton({
     Title = "Tatsumaki Ezici Çekme",
     Description = "Hasar Vermez",
     Callback = function()
@@ -2299,6 +2329,35 @@ local UserInputService = game:GetService("UserInputService")
 
 local anim2 = Instance.new("Animation")
 anim2.AnimationId = "rbxassetid://16515850153"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+local soundId = 16312409209
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+    end
+})
+
+PlayerModsTab:AddButton({
+    Title = "Tatsumaki Fırtına Kendine",
+    Description = "Hasar Vermez",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://14658503037"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
@@ -3348,7 +3407,7 @@ anim2.AnimationId = "rbxassetid://116753755471636"
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
 
-wait(0.5)
+wait(1.3)
 
 local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
@@ -3505,6 +3564,24 @@ playAnim2:Play()
 })
 
 PlayerModsTab:AddButton({
+    Title = "Frost Freezing Path Saldırı",
+    Description = "",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://108974035701442"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+PlayerModsTab:AddButton({
     Title = "Frost Freezing Path Kendine",
     Description = "",
     Callback = function()
@@ -3515,7 +3592,7 @@ local character = player.Character or player.CharacterAdded:Wait()
 local UserInputService = game:GetService("UserInputService")
 
 local anim2 = Instance.new("Animation")
-anim2.AnimationId = "rbxassetid://112620365240235"
+anim2.AnimationId = "rbxassetid://111487401271653"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
@@ -5349,6 +5426,35 @@ sound:Play()
 })
 
 EmoteTab:AddButton({
+    Title = "Freaky",
+    Description = "Bastıktan Sonra Özellik Kullanırsanız Gider",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17086544068"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+local soundId = 17086541392
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+    end
+})
+
+EmoteTab:AddButton({
     Title = "WHY?",
     Description = "Bastıktan Sonra Özellik Kullanırsanız Gider",
     Callback = function()
@@ -5439,6 +5545,132 @@ sound.Pitch = 1.0
 sound.PlaybackSpeed = 1.0
 sound.Parent = workspace
 sound:Play()
+    end
+})
+
+EmoteTab:AddButton({
+    Title = "Lets Go",
+    Description = "Bastıktan Sonra Özellik Kullanırsanız Gider",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18450770138"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+EmoteTab:AddButton({
+    Title = "WHAT?",
+    Description = "Bastıktan Sonra Özellik Kullanırsanız Gider",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18450685221"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+EmoteTab:AddButton({
+    Title = "Cat Dance",
+    Description = "Bastıktan Sonra Özellik Kullanırsanız Gider",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17861842039"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+EmoteTab:AddButton({
+    Title = "Ohio Dance",
+    Description = "Bastıktan Sonra Özellik Kullanırsanız Gider",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17861841334"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+EmoteTab:AddButton({
+    Title = "Speedy Legs",
+    Description = "Bastıktan Sonra Özellik Kullanırsanız Gider",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17863047324"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+EmoteTab:AddButton({
+    Title = "Thumbs Up",
+    Description = "Bastıktan Sonra Özellik Kullanırsanız Gider",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://16524522673"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+EmoteTab:AddButton({
+    Title = "What Did u Say?",
+    Description = "Bastıktan Sonra Özellik Kullanırsanız Gider",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17266193826"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
     end
 })
 
@@ -5583,6 +5815,35 @@ local UserInputService = game:GetService("UserInputService")
 
 local anim2 = Instance.new("Animation")
 anim2.AnimationId = "rbxassetid://13927612951"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
+local soundId = 14742345676
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+    end
+})
+
+Script2Tab:AddButton({
+    Title = "Saitama OmniPunch Kendine",
+    Description = "",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://13916238703"
 
 local playAnim2 = humanoid:LoadAnimation(anim2)
 playAnim2:Play()
@@ -6859,6 +7120,42 @@ playAnim2:Play()
 })
 
 CredTab:AddButton({
+    Title = "Zombie Man M1 1",
+    Description = "OYUNA EKLENMEYEN ANİMASYON DENENMEDİ",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18462088986"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+CredTab:AddButton({
+    Title = "Zombie Man M1 2",
+    Description = "OYUNA EKLENMEYEN ANİMASYON DENENMEDİ",
+    Callback = function()
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://18462089757"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+    end
+})
+
+CredTab:AddButton({
     Title = "KGuestCheatsJ Saitama Dönüş!",
     Description = "",
     Callback = function()
@@ -7783,6 +8080,14 @@ coroutine.resume(getgenv().loop)
     end
 })
 
+HubTab:AddButton({
+    Title = "Oto Frost Toplayıcı",
+    Description = "BİDAHA BASIN Kapatmak İçin",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/OtherScripts/refs/heads/main/AutoCollectFrozenLock.lua"))()
+    end
+})
+
 Hub2Tab:AddButton({
     Title = "Haritanin Ortası",
     Description = "",
@@ -8085,6 +8390,86 @@ DumTab:AddButton({
 })
 
 DumTab:AddButton({
+    Title = "Dummy UnlimitedFlexWorks!",
+    Description = "",
+    Callback = function()
+        -- Referências aos objetos
+local player = game.Workspace.Live["Weakest Dummy"]
+local playerHumanoid = player:FindFirstChildOfClass("Humanoid")
+
+-- IDs das animações
+local playerAnimationId = "k"  -- ID de animação do jogador (don't mind this)
+local dummyAnimationId = "77727115892579"  -- ID de animação do Dummy
+
+-- Função para criar e adicionar animação
+local function addAnimation(humanoid, animationId)
+    local animation = Instance.new("Animation")
+    animation.AnimationId = "rbxassetid://" .. animationId
+    local animator = humanoid:FindFirstChildOfClass("Animator")
+    
+    if not animator then
+        animator = Instance.new("Animator")
+        animator.Name = "Animator"
+        animator.Parent = humanoid
+    end
+    
+    local animationTrack = animator:LoadAnimation(animation)
+    
+    -- Atrasar o início da animação em 0.8 segundos
+    
+    animationTrack:Play()
+end
+
+-- Adiciona a animação ao Dummy
+addAnimation(playerHumanoid, dummyAnimationId)
+
+local soundId = 17150550093
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 99126314241685
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 128136381213631
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+
+local soundId = 95410275491981
+
+local sound = Instance.new("Sound")
+sound.Name = "audio/kj_awakening_varient_2_sfx_only"
+sound.SoundId = "rbxassetid://" .. soundId
+sound.Volume = 1
+sound.Pitch = 1.0
+sound.PlaybackSpeed = 1.0
+sound.Parent = workspace
+sound:Play()
+    end
+})
+
+DumTab:AddButton({
     Title = "Dummy Saldırısı",
     Description = "",
     Callback = function()
@@ -8378,7 +8763,7 @@ sound:Play()
 
 DumTab:AddButton({
     Title = "Dummy Saitama Omni Punch Sana",
-    Description = "Daha Yapılmadı!",
+    Description = "",
     Callback = function()
             -- Referências aos objetos
 local player = game.Workspace.Live["Weakest Dummy"]
@@ -8409,7 +8794,19 @@ end
 
 -- Adiciona a animação ao Dummy
 addAnimation(playerHumanoid, dummyAnimationId)
- 
+
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://13916238703"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
+
 local soundId = 14742345676
  
 local sound = Instance.new("Sound")
@@ -8701,6 +9098,14 @@ BaTab:AddButton({
     Description = "Çok İyi İşe Yarıyor",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/OtherScripts/refs/heads/main/CooldownIndicator.lua"))()
+   end,
+})
+
+BaTab:AddButton({
+    Title = "TSB 1.HİLE",
+    Description = "",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DiosDi/VexonHub/main/TSB-VexonHub"))()
    end,
 })
 
