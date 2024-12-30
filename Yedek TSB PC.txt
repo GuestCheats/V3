@@ -6863,14 +6863,17 @@ Script2Tab:AddButton({
     Title = "KJ DropKick Koşu",
     Description = "",
     Callback = function()
-    local p = game.Players.LocalPlayer
-local Humanoid = p.Character:WaitForChild("Humanoid")
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
 
-local AnimAnim = Instance.new("Animation")
-AnimAnim.AnimationId = "rbxassetid://17354976067"
-local Anim = Humanoid:LoadAnimation(AnimAnim)
-AnimAnim.AnimationId = "rbxassetid://0"
-Anim:Play()
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17354976067"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
 
 local soundId = 17429233290
 
@@ -6889,14 +6892,17 @@ Script2Tab:AddButton({
     Title = "KJ DropKick Saldırı",
     Description = "",
     Callback = function()
-    local p = game.Players.LocalPlayer
-local Humanoid = p.Character:WaitForChild("Humanoid")
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
 
-local AnimAnim = Instance.new("Animation")
-AnimAnim.AnimationId = "rbxassetid://17420452843"
-local Anim = Humanoid:LoadAnimation(AnimAnim)
-AnimAnim.AnimationId = "rbxassetid://0"
-Anim:Play()
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17420452843"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
 
 wait(2)
 
@@ -6954,14 +6960,17 @@ Script2Tab:AddButton({
     Title = "KJ Stoic Bomb",
     Description = "",
     Callback = function()
-    local p = game.Players.LocalPlayer
-local Humanoid = p.Character:WaitForChild("Humanoid")
+    local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+local character = player.Character or player.CharacterAdded:Wait()
+local UserInputService = game:GetService("UserInputService")
 
-local AnimAnim = Instance.new("Animation")
-AnimAnim.AnimationId = "rbxassetid://17141153099"
-local Anim = Humanoid:LoadAnimation(AnimAnim)
-AnimAnim.AnimationId = "rbxassetid://0"
-Anim:Play()
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://17141153099"
+
+local playAnim2 = humanoid:LoadAnimation(anim2)
+playAnim2:Play()
 
             local SoundTP = Instance.new("Sound", game.Players.LocalPlayer.Character.Torso)
             SoundTP.SoundId = "rbxassetid://17149593018"
