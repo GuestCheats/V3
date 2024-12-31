@@ -5563,7 +5563,7 @@ playAnim2:Play()
 })
 
 EmoteTab:AddButton({
-    Title = "Cat Dance",
+    Title = "Ohio Dance",
     Description = "Bastıktan Sonra Özellik Kullanırsanız Gider",
     Callback = function()
     local player = game.Players.LocalPlayer
@@ -5581,7 +5581,7 @@ playAnim2:Play()
 })
 
 EmoteTab:AddButton({
-    Title = "Ohio Dance",
+    Title = "Cat Dance",
     Description = "Bastıktan Sonra Özellik Kullanırsanız Gider",
     Callback = function()
     local player = game.Players.LocalPlayer
