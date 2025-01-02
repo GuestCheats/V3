@@ -8003,7 +8003,7 @@ HubTab:AddButton({
     Title = "KJ TSB HITBOX ARTTIRICI",
     Description = "Maximum Çalışan Hitbox KJ DE!",
     Callback = function()
-    _G.HeadSize = 11
+    _G.HeadSize = 10
 _G.Disabled = true
  
 game:GetService('RunService').RenderStepped:connect(function()
